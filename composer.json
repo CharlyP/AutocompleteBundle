@@ -1,0 +1,26 @@
+{
+    "name": "charlyp/autocomplete-bundle",
+    "type": "symfony-bundle",
+    "description": "CharlyP Autocomplete Management Symfony Bundle",
+    "keywords": ["autocomplete", "form", "symfony", "jquery", "bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Charles Pourcel",
+            "email": "ch.pourcel@gmail.com"
+        }
+    ],
+    "require": {
+        "php":                 ">=5.3.3",
+        "symfony/form":        "~2.3",
+        "symfony/routing":     "~2.3",
+        "symfony/http-kernel": "~2.3",
+        "components/jquery":   "1.8.3",
+        "components/jqueryui": "1.9.2"
+    },
+    "autoload": {
+        "psr-0": { "Charlyp\\AutocompleteBundle\\": "" }
+    },
+    "target-dir": "Charlyp/AutocompleteBundle",
+    "minimum-stability": "dev"
+}
