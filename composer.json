@@ -8,6 +8,10 @@
         {
             "name":  "Charles Pourcel",
             "email": "ch.pourcel@gmail.com"
+        },
+        {
+            "name":  "Jonathan Beurel",
+            "email": "bejonster@gmail.com"
         }
     ],
     "require": {
@@ -15,12 +19,21 @@
         "symfony/form":        "~2.3",
         "symfony/routing":     "~2.3",
         "symfony/http-kernel": "~2.3",
-        "components/jquery":   "1.8.3",
-        "components/jqueryui": "1.9.2"
+        "components/jquery":   ">=1.8.3",
+        "components/jqueryui": ">=1.9.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle":      "~2.3"
     },
     "autoload": {
-        "psr-0": { "Charlyp\\AutocompleteBundle\\": "" }
+        "psr-0": { "Charlyp\\AutocompleteBundle": "" }
     },
     "target-dir": "Charlyp/AutocompleteBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.3.x-dev"
+        }
+    },
     "minimum-stability": "dev"
 }
