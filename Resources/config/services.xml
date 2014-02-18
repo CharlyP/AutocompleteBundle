@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <parameters>
-        <parameter key="charlyp_autocomplete.type.autocomplete.class">Charlyp\AutocompleteManagerBundle\Form\Type\AutocompleteType</parameter>
+        <parameter key="charlyp_autocomplete.type.autocomplete.class">Charlyp\AutocompleteBundle\Form\AutocompleteType</parameter>
     </parameters>
 
     <services>

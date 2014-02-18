@@ -24,5 +24,10 @@ class CharlypAutocompleteExtension extends Extension
 
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
+
+        //Include demo services only if in debug mode
+        if ($container->getParameter('kernel.debug')) {
+            $loader->load('services_demo.xml');
+        }
     }
 }
